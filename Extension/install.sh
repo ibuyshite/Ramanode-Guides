@@ -69,7 +69,7 @@ services:
     ports:
       - 3010:3000
       - 3011:3001
-    shm_size: "1gb"
+    shm_size: "10gb"
     restart: unless-stopped
 EOF
 
